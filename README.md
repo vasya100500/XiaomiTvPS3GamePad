@@ -10,8 +10,8 @@ ps3 dualshock 3 sixaxis for xiaomi mi tv A4/S4
 Купить можно на aliexpress в районе 300-350 рублей
 2) Среда разработки Arduino
 3) В Arduino необходимо установить две библиотеки:
-Для работы с геймпадом ps3 https://github.com/jvpernis/esp32-ps3
-Для эмуляции геймпада через bluetooth https://github.com/lemmingDev/ESP32-BLE-Gamepad
+  Для работы с геймпадом ps3 https://github.com/jvpernis/esp32-ps3
+  Для эмуляции геймпада через bluetooth https://github.com/lemmingDev/ESP32-BLE-Gamepad
 4) На геймпаде нужно сменить mac адрес на 11:22:33:44:55:66 через программу sixaxispairtool, либо изменить значение mac на свой в скетче.
 5) Залить скетч в esp32
 6) В настройках телевизора подключить новое устройство bluetooth "ESP32 BLE Gamepad"
